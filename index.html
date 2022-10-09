@@ -306,12 +306,57 @@
                 <div id="content-research" class="collapse in">
 
                 <table border=0 class="bg_colour" style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
- 	<tr onmouseout="carbs_stop()" onmouseover="carbs_start()">
+ 	
+		<tr onmouseout="bite_stop()" onmouseover="bite_start()">
+            <td style="width:40%;text-align:center;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='bite_gif'>
+		      <img src='images/bite_transfer.gif' width="280" align="middle"></div>
+                <img src='images/bite_transfer.png' width="280" align="middle">
+              </div>
+              <script type="text/javascript">
+                function bite_start() {
+                  document.getElementById('bite_gif').style.opacity = "1";
+                }
+
+                function bite_stop() {
+                  document.getElementById('bite_gif').style.opacity = "0";
+                }
+                bite_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:60%;vertical-align:middle">
+              <a href="https://sites.google.com/view/bitetransfericra2023/home" target="_blank">
+              <papertitle>In-Mouth Robotic Bite Transfer With Visual and Haptic Sensing</papertitle>
+              </a>
+              <br>
+		    <a href="https://lorenzos.io/" target="_blank">Lorenzo Shaikewitz*</a>,
+	      <strong>Yilin Wu*</strong>,
+		    <a href="https://scholar.google.com/citations?user=UQBRs7EAAAAJ" target="_blank">Suneel Belkhale*</a>,
+	     <a href="https://jenngrannen.com/" target="_blank">Jennifer Grannen</a>,
+		    <a href="https://priyasundaresan.github.io/" target="_blank">Priya Sundaresan</a>,
+       
+              <a href="https://dorsa.fyi/" target="_blank">Dorsa Sadigh</a><br>				
+              <br>
+              Under review for <em>ICRA</em>, 2023 
+              <br>
+              <a href="https://sites.google.com/view/bitetransfericra2023/home" target="_blank">project page</a>
+              /
+              <a href="https://drive.google.com/file/d/1yZQEHp9b5cNliwo45Q76ThDMwmKZbFaq/view" target="_blank">paper</a>
+              /
+              <a href="https://www.youtube.com/watch?v=2FeDwEpunt0&ab_channel=LorenzoShaikewitz" target="_blank">video</a>
+              <p>We build a semi autonomous robotic system to do in-mouth transfer of food safely and comfortably for disabled people. The system is composed of a force-reactive controller to safely accommodate the user’s motions throughout the transfer, a novel dexterous wrist-like end effector to reduce the discomfort and a visual sensor to identify the user mouth.</p>
+              <p></p>
+            </td>
+	</tr>
+					
+			
+	<tr onmouseout="carbs_stop()" onmouseover="carbs_start()">
             <td style="width:40%;text-align:center;vertical-align:middle">
               <div class="one">
                 <div class="two" id='carbs_gif'>
-		      <img src='images/carbs_after.gif' width="320" align="middle"></div>
-                <img src='images/carbs_before.png' width="320" align="middle">
+		      <img src='images/carbs_after.gif' width="280" align="middle"></div>
+                <img src='images/carbs_before.png' width="280" align="middle">
               </div>
               <script type="text/javascript">
                 function carbs_start() {
@@ -321,7 +366,7 @@
                 function carbs_stop() {
                   document.getElementById('carbs_gif').style.opacity = "0";
                 }
-                sir_stop()
+                carbs_stop()
               </script>
             </td>
             <td style="padding:20px;width:60%;vertical-align:middle">
@@ -339,11 +384,11 @@
               <br>
               <a href="https://sites.google.com/view/bimanualscoop-corl22/home" target="_blank">project page</a>
               /
-              <a href="https://openreview.net/pdf?id=qDtbMK67PJG" target="_blank">arXiv</a>
+              <a href="https://openreview.net/pdf?id=qDtbMK67PJG" target="_blank">paper</a>
               /
-<!--               <a href="https://slideslive.com/38941385/solving-compositional-reinforcement-learning-problems-via-task-reduction" target="_blank">video</a> -->
+              <a href="https://drive.google.com/file/d/1kH6bAgOLegxePHUbKUTDc5SfQpftNgsn/view?usp=sharing" target="_blank">video</a>
               <p></p>
-              <p>We propose a general bimanual scooping primitive and an adaptive stabilization strategy that enables successful acquisition of a diverse set of food geometries and physical properties with close-loop visual feedback..</p>
+              <p>We propose a general bimanual scooping primitive and an adaptive stabilization strategy that enables successful acquisition of a diverse set of food geometries and physical properties with close-loop visual feedback.</p>
             </td>
 	</tr>
 			
@@ -352,8 +397,8 @@
             <td style="width:40%;text-align:center;vertical-align:middle">
               <div class="one">
                 <div class="two" id='sir_image'>
-		      <img src='images/sir_fetch.gif' width="180" align="middle"></div>
-                <img src='images/sir_before.jpg' width="180" align="middle">
+		      <img src='images/sir_fetch.gif' width="160" align="middle"></div>
+                <img src='images/sir_before.jpg' width="160" align="middle">
               </div>
               <script type="text/javascript">
                 function sir_start() {
@@ -393,8 +438,8 @@
             <td style="width:40%;text-align:center;vertical-align:middle">
               <div class="one">
                 <div class="two" id='mvp_image'>
-		<img src='images/mvp.gif' width="180" align="middle"></div>
-                <img src='images/mvp_back.jpg' width="180" align="middle">
+		<img src='images/mvp.gif' width="160" align="middle"></div>
+                <img src='images/mvp_back.jpg' width="160" align="middle">
               </div>
               <script type="text/javascript">
                 function mvp_start() {
