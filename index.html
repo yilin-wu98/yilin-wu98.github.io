@@ -167,8 +167,134 @@
                 <div id="content-research" class="collapse in">
 
                 <table border=0 class="bg_colour" style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	<tr onmouseout="toolgen_stop()" onmouseover="toolgen_start()">
+            <td style="width:40%;text-align:center;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='toolgen_gif'>
+		      <img src='images/toolgen.gif' width="280" align="middle"></div>
+                <img src='images/toolgen.gif' width="280" align="middle">
+              </div>
+              <script type="text/javascript">
+                function toolgen_start() {
+                  document.getElementById('toolgen_gif').style.opacity = "1";
+                }
 
-    		<tr onmouseout="openx_stop()" onmouseover="openx_start()">
+                function toolgen_stop() {
+                  document.getElementById('toolgen_gif').style.opacity = "0";
+                }
+                toolgen_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:60%;vertical-align:middle">
+              <a href="https://sites.google.com/view/toolgen" target="_blank">
+              <papertitle>Learning Generalizable Tool-use Skills through Trajectory Generation</papertitle>
+              </a>
+              <br>
+		  <a href="https://carl-qi.github.io/" target="_blank">Carl Qi *</a>,
+	      <strong>Yilin Wu *</strong>,
+		    
+	     
+		    <a href="https://github.com/SilvesterYu" target="_blank">Lifan Yu</a>,
+		     <a href="https://www.ri.cmu.edu/ri-people/haoyue-liu/" target="_blank">Haoyue Liu</a>,
+       <a href="https://www.ri.cmu.edu/ri-people/bowen-jiang-2/" target="_blank">Bowen Jiang</a>,
+		    <a href="https://xingyu-lin.github.io/" target="_blank">Xingyu Lin **</a>,
+              <a href="https://davheld.github.io/" target="_blank">David Held **</a>  <br>				
+              <br>
+              <em>In submission to IROS</em>, 2024
+              <br>
+              <a href="https://carl-qi.github.io/" target="_blank">project page</a>
+              
+              /
+              Preprint
+              /
+              <a href="https://drive.google.com/file/d/1BykfAn5l-m75kNAmx8RracKY2xGKLMh2/view?usp=sharing" target="_blank">video</a>
+              <p>In this work, we propose to learn a generative model of the tool-use trajectories as a sequence of point clouds, which generalizes to different tool shapes. We train a single model for four different challenging deformable object manipulation tasks, which generalizes to various novel tools.</p>
+              <p></p>
+            </td>
+	</tr>
+			
+	<tr onmouseout="hacman_stop()" onmouseover="hacman_start()">
+            <td style="width:40%;text-align:center;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='hacman_gif'>
+		      <img src='images/hacman.gif' width="280" align="middle"></div>
+                <img src='images/hacman.gif' width="280" align="middle">
+              </div>
+              <script type="text/javascript">
+                function hacman_start() {
+                  document.getElementById('hacman_gif').style.opacity = "1";
+                }
+
+                function hacman_stop() {
+                  document.getElementById('hacman_gif').style.opacity = "0";
+                }
+                hacman_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:60%;vertical-align:middle">
+              <a href="https://sgmp-rss2024.github.io/" target="_blank">
+              <papertitle>DROID: A Large-Scale In-the-Wild Robot Manipulation Dataset</papertitle>
+              </a>
+              <br>
+		  <a href="https://www.ri.cmu.edu/ri-people/bowen-jiang-2/" target="_blank">Bowen Jiang</a>,
+	      <strong>Yilin Wu</strong>,
+		    
+	     
+		    <a href="https://wenxuan-zhou.github.io/" target="_blank">Wenxuan Zhou</a>,
+		     <a href="https://cpaxton.github.io/about/" target="_blank">Chris Paxton</a>,
+       
+              <a href="https://davheld.github.io/" target="_blank">David Held</a>  <br>				
+              <br>
+              <em>In submission to RSS</em>, 2024
+              <br>
+              <a href="https://sgmp-rss2024.github.io/" target="_blank">project page</a>
+              
+              /
+              Preprint
+              /
+              <a href="https://sgmp-rss2024.github.io/static/videos/all.mp4" target="_blank">video</a>
+              <p>In this work, we introduce spatially-grounded parameterized motion primitives to improve policy generalization for robotic manipulation tasks. By grounding the primitives on a spatial location in the environment, our proposed method is able to effectively generalize across object shape and pose variations.</p>
+              <p></p>
+            </td>
+	</tr>
+	<tr onmouseout="droid_stop()" onmouseover="droid_start()">
+            <td style="width:40%;text-align:center;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='droid_gif'>
+		      <img src='images/droid.gif' width="280" align="middle"></div>
+                <img src='images/droid.gif' width="280" align="middle">
+              </div>
+              <script type="text/javascript">
+                function droid_start() {
+                  document.getElementById('droid_gif').style.opacity = "1";
+                }
+
+                function droid_stop() {
+                  document.getElementById('droid_gif').style.opacity = "0";
+                }
+                droid_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:60%;vertical-align:middle">
+              <a href="https://droid-dataset.github.io/" target="_blank">
+              <papertitle>DROID: A Large-Scale In-the-Wild Robot Manipulation Dataset</papertitle>
+              </a>
+              <br>
+		    DROID Dataset Team<br>				
+              <br>
+              <em>In submission to RSS</em>, 2024
+              <br>
+              <a href="https://droid-dataset.github.io/" target="_blank">project page</a>
+              
+              /
+              <a href="https://arxiv.org/abs/2403.12945" target="_blank">paper</a>
+              /
+              <a href="https://droid-dataset.github.io/videos/droid_teaser_animated.mp4" target="_blank">video</a>
+              <p>In this work, we introduce DROID (Distributed Robot Interaction Dataset), a diverse robot manipulation dataset with 76k demonstration trajectories or 350h of interaction data, collected across 564 scenes and 86 tasks by 50 data collectors in North America, Asia, and Europe over the course of 12 months. We demonstrate that training with DROID leads to policies with higher performance, greater robustness, and improved generalization ability.</p>
+              <p></p>
+            </td>
+	</tr>
+    	<tr onmouseout="openx_stop()" onmouseover="openx_start()">
             <td style="width:40%;text-align:center;vertical-align:middle">
               <div class="one">
                 <div class="two" id='openx_gif'>
@@ -176,14 +302,14 @@
                 <img src='images/openx.gif' width="280" align="middle">
               </div>
               <script type="text/javascript">
-                function buds_start() {
+                function openx_start() {
                   document.getElementById('openx_gif').style.opacity = "1";
                 }
 
-                function buds_stop() {
+                function openx_stop() {
                   document.getElementById('openx_gif').style.opacity = "0";
                 }
-                buds_stop()
+                openx_stop()
               </script>
             </td>
             <td style="padding:20px;width:60%;vertical-align:middle">
@@ -193,7 +319,7 @@
               <br>
 		    Open X-Embodiment Collaboration Team<br>				
               <br>
-              <em>ICRA</em>, 2024,
+              <em>ICRA</em>, 2024
               <br>
               <a href="https://robotics-transformer-x.github.io/" target="_blank">project page</a>
               
