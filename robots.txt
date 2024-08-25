@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yilin-wu98.github.io/sitemap.xml
+Sitemap: https://yilin-wu98.github.io/personal_page/sitemap.xml
