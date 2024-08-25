@@ -34,7 +34,7 @@
             include figure.liquid
             loading="eager"
             path=entry_path
-            sizes = "200px"
+            sizes = "800px"
             class="preview z-depth-1 rounded"
             zoomable=true
             alt=entry.preview
@@ -181,14 +181,11 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
-
+    <!-- Award -->
+    <div class="award" style="font-weight: bold; color:var(--global-theme-color) ;">{{ entry.award }}</div>
     <!-- Links/Buttons -->
     <div class="links">
-      {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
-        </a>
-      {% endif %}
+     
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}

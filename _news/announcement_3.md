@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-05-09
 inline: true
+title: rss2024
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Two papers <a href="https://droid-dataset.github.io/">DROID</a> and <a href="https://sgmp-rss2024.github.io/">HACMan++</a> are accepted by RSS 2024.
