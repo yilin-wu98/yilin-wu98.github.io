@@ -2,9 +2,7 @@
   - firstname: ["Ran"]
     url: https://thomasrantian.github.io/
 
-"xu":
-  - firstname: ["Chenfeng"]
-    url: https://chenfengxu.com/
+
 "bajcsy":
   - firstname: ["Andrea"]
     url: https://www.cs.cmu.edu/~abajcsy/
@@ -94,3 +92,6 @@
 "xu":
   - firstname: ["Huazhe"]
     url: http://hxu.rocks/
+
+  - firstname: ["Chenfeng"]
+    url: https://chenfengx.com/
