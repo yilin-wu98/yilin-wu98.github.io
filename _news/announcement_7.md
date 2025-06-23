@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to tart my summer internship in Nvidia Seattle Robotics Lab!
+Excited to start my summer internship in Nvidia Seattle Robotics Lab!
