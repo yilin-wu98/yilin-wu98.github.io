@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-7.20
+date: 2025-7-20
 title: meta-talk
 inline: true
 related_posts: false
