@@ -3,6 +3,32 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{tian2024rapl,
+  title = {Position: Good Embodied Reward Models Need Bad Behavior Data},
+  author = {Tian, Ran and Wu, Yilin and Bajcsy, Andrea},
+  booktitle = {submission to  the International Conference on Machine Learning (ICML)},
+  year = {2026},
+  abbr = {arxiv},
+  selected = {true},
+  bibtex_show = {true},
+  preview = {reward.gif},
+  website={https://cmu-intentlab.github.io/pdf/tian_icml_26_position.pdf},
+  abstract = {This position paper argues that to obtain reliable embodied reward models, the community must invest in “bad” robot data: failed, suboptimal, errorprone, and even hazardous behaviors. While reward models are central to any foundation model’s lifecycle, today’s embodied reward models are trained primarily on successful behaviors. We analyze three state-of-the-art embodied reward models and find that they systematically over-reward behaviors that real human evaluators would penalize, including unsafe interactions, poor execution, and shortcut strategies that only superficially satisfy tasks. We attribute these failures to a key data gap: the scarcity of negative embodied data which is costly to collect and often filtered out or withheld in existing robotics datasets. Furthermore, we show that even modest exposure to real bad behavior data can improve alignment with human preferences and reduce costly false positives. We therefore call on the embodied AI community to curate and release their bad robot data, build synthetic bad data generation engines, develop more decentralized physical evaluation systems, and design benchmarks for fine-grained embodied reward model evaluations.}
+
+@inproceedings{yuan2026actasklearnuncertaintyaware,
+title={When to Act, Ask, or Learn: Uncertainty-Aware Policy Steering}, 
+    author={Yuan*, Jessie and Wu Yilin* and Bajcsy Andrea},
+	booktile= {under review for Robotics: Science and Systems (RSS)},
+	abbr={arxiv},
+	selected={true},
+    bibtex_show = {true},
+	website={https://jessie-yuan.github.io/ups/},
+	preview={ups.gif},
+    year={2026},
+    arxiv={2602.22474},
+    abstract={Policy steering is an emerging way to adapt robot behaviors at deployment-time: a learned verifier analyzes low-level action samples proposed by a pre-trained policy (e.g., diffusion policy) and selects only those aligned with the task. While Vision-Language Models (VLMs) are promising general-purpose verifiers due to their reasoning capabilities, existing frameworks often assume these models are well-calibrated. In practice, the overconfident judgment from VLM can degrade the steering performance under both high-level semantic uncertainty in task specifications and low-level action uncertainty or incapability of the pre-trained policy.We propose uncertainty-aware policy steering (UPS), a framework that jointly reasons about semantic task uncertainty and low-level action feasibility, and selects an uncertainty resolution strategy: execute a high-confidence action, clarify task ambiguity via natural language queries, or ask for action interventions to correct the low-level policy when it is deemed incapable at the task. We leverage conformal prediction to calibrate the composition of the VLM and the pre-trained base policy, providing statistical assurances that the verifier selects the correct strategy. After collecting interventions during deployment, we employ residual learning to improve the capability of the pre-trained policy, enabling the system to learn continually but with minimal expensive human feedback. We demonstrate our framework through experiments in simulation and on hardware, showing that UPS can disentangle confident, ambiguous, and incapable scenarios and minimizes expensive user interventions compared to uncalibrated baselines and prior human- or robot-gated continual learning approaches.},
+}
+
 @inproceedings{wu2025steering,
 title = {Do What You Say: Steering Vision-Language-Action Models via Runtime Reasoning-Action Alignment Verification},
 author = {Wu, Yilin and Li, Anqi and Hermans, Tucker and Ramos, Fabio and Bajcsy*, Andrea and P'erez-D'Arpino*, Claudia },
