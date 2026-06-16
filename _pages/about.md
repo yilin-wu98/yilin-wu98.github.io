@@ -24,21 +24,12 @@ For industry experiences, I have had great internships at Nvidia Seattle Robotic
 
 My research interest lies in building better foundation models for robotics (fast, multi-modal world models) and leveraging those foundation models for inference-time adaptation (policy steering, etc.). I am also broadly interested in enhancing robots' capabilities for more complex, long-horizon contact-rich manipulation with imitation learning, reinforcement learning, and multi-modal sensing.
 
-<button
-  class="btn btn-sm btn-outline-primary bio-toggle"
-  type="button"
-  data-text-collapsed="Show more about my background"
-  data-text-expanded="Show less"
->
-  Show more about my background
-</button>
+<button class="btn btn-sm btn-outline-primary bio-toggle" type="button" data-text-collapsed="Show more about my background" data-text-expanded="Show less">Show more about my background</button>
 
 <div class="bio-more bio-hidden" markdown="1">
-
 Earlier at CMU, I was fortunate to work with <a href="https://davheld.github.io/">Prof. David Held</a> on generalizable methods for long-horizon contact-rich manipulation. During my Master at Stanford, I focused on assistive feeding and bimanual manipulation. I also worked with <a href="https://jxwuyi.weebly.com/">Prof. Yi Wu</a> from Tsinghua University at Shanghai Qi Zhi Institute on reinforcement learning and self-imitation, and in my undergrad worked on reinforcement learning for deformable object manipulation.
 
 More broadly, my research centers around overcoming the fundamental <em>embodiment gap</em> that limits the application of foundation models to robotics. By grounding high-level semantic reasoning in the continuous dynamics of the physical world, I want to build robots that can learn, reason, and act capably in human-centered environments, enhancing their generalization and robustness through runtime alignment and continual learning.
-
 </div>
 
 <style>
