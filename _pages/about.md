@@ -18,11 +18,50 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-I am a third-year Ph.D student at Intent Lab in CMU Robotics Institute, advised by <a href="https://www.cs.cmu.edu/~abajcsy/">Prof. Andrea Bajcsy</a>. Previously, I am fortunate to work with <a href="https://davheld.github.io/">Prof. David Held</a> on generalizable methods for long-horizon contact-rich manipulation. 
+I am a third-year Ph.D. student at Intent Lab in CMU Robotics Institute, advised by <a href="https://www.cs.cmu.edu/~abajcsy/">Prof. Andrea Bajcsy</a>. I received my Master from Stanford CS, supervised by <a href="https://dorsa.fyi/">Prof. Dorsa Sadigh</a>. In my undergrad, I was also fortunate to work with <a href="https://www.lerrelpinto.com/">Prof. Lerrel Pinto</a> and <a href="https://people.eecs.berkeley.edu/~pabbeel/">Prof. Pieter Abbeel</a>.
 
-Before coming to CMU, I was a master student with a focus on assistive feeding and bimanual manipulation in Computer Science Department at Stanford University, supervised by <a href="https://dorsa.fyi/">Prof. Dorsa Sadigh</a>. 
+For industry experiences, I have had great internships at Nvidia Seattle Robotics Lab and the Amazon Frontier AI &amp; Robotics Lab.
 
-In the past, I am also fortunate to work with <a href="https://jxwuyi.weebly.com/">Prof. Yi Wu</a> from Tsinghua University at Shanghai Qi Zhi Institute on reinforcement learning and self-imitation. In my undergrad, I also worked closely with <a href="https://people.eecs.berkeley.edu/~pabbeel/">Prof. Pieter Abbeel</a> and <a href="https://www.lerrelpinto.com/">Prof. Lerrel Pinto</a> on reinforcment learning for deformable object manpulation.
+My research interest lies in building better foundation models for robotics (fast, multi-modal world models) and leveraging those foundation models for inference-time adaptation (policy steering, etc.). I am also broadly interested in enhancing robots' capabilities for more complex, long-horizon contact-rich manipulation with imitation learning, reinforcement learning, and multi-modal sensing.
 
-My current research focuses on `open-world robot learning for manipulation` and `human-robot interaction`. My research centers around overcoming the fundamental <em>embodiment gap</em> that limits the application of foundation models to robotics. By grounding the high-level semantic reasoning in the continuous dynamic environment of the physical world, I want to build robots that can learn, reason and act capably in human-centered environment. My current work tries to enhance the robots' generalization and robustness with runtime alignment and continual learning. I am also broadly interested in developing various deep learning methods like reinforcement learning and imitation learning to enhance robot's capability for more complex manipulation tasks. 
+<button
+  class="btn btn-sm btn-outline-primary bio-toggle"
+  type="button"
+  data-text-collapsed="Show more about my background"
+  data-text-expanded="Show less"
+>
+  Show more about my background
+</button>
+
+<div class="bio-more bio-hidden" markdown="1">
+
+Earlier at CMU, I was fortunate to work with <a href="https://davheld.github.io/">Prof. David Held</a> on generalizable methods for long-horizon contact-rich manipulation. During my Master at Stanford, I focused on assistive feeding and bimanual manipulation. I also worked with <a href="https://jxwuyi.weebly.com/">Prof. Yi Wu</a> from Tsinghua University at Shanghai Qi Zhi Institute on reinforcement learning and self-imitation, and in my undergrad worked on reinforcement learning for deformable object manipulation.
+
+More broadly, my research centers around overcoming the fundamental <em>embodiment gap</em> that limits the application of foundation models to robotics. By grounding high-level semantic reasoning in the continuous dynamics of the physical world, I want to build robots that can learn, reason, and act capably in human-centered environments, enhancing their generalization and robustness through runtime alignment and continual learning.
+
+</div>
+
+<style>
+  .bio-hidden {
+    display: none;
+  }
+  .bio-toggle {
+    margin: 0.5rem 0;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".bio-toggle").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        const expand = btn.getAttribute("data-expanded") !== "true";
+        document.querySelectorAll(".bio-more").forEach(function (el) {
+          el.classList.toggle("bio-hidden", !expand);
+        });
+        btn.setAttribute("data-expanded", expand ? "true" : "false");
+        btn.textContent = expand ? btn.dataset.textExpanded : btn.dataset.textCollapsed;
+      });
+    });
+  });
+</script>
 
