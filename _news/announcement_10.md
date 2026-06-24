@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to give a talk about my research on Language-Guided Runtime Steering with Robot Foundation Models at Duke DexLab!
+Excited to give a talk about my research on Language-Guided Runtime Steering with Robot Foundation Models at Duke DexLab (https://www.youtube.com/watch?v=sBBRs2N-qiw)!
