@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Gave a spotlight talk about my recent two works UPS (Uncertainty-aware Policy Steering) and ViTaL (Inference-time Policy Steering via Vision and Touch).
+Gave a spotlight talk about my recent two works UPS (Uncertainty-aware Policy Steering) and ViTaL (Inference-time Policy Steering via Vision and Touch) at CVPR 2026 H2R Workshop. 
