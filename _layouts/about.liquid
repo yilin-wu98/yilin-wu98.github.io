@@ -52,7 +52,11 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    
+    <!-- Talks -->
+    {% if page.talks and site.data.talks %}
+      <h2>Talks</h2>
+      {% include talks.liquid %}
+    {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
