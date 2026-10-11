@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-I am a third-year Ph.D. student at Intent Lab in CMU Robotics Institute, advised by <a href="https://www.cs.cmu.edu/~abajcsy/">Prof. Andrea Bajcsy</a>. I received my Master from Stanford CS, supervised by <a href="https://dorsa.fyi/">Prof. Dorsa Sadigh</a>. In my undergrad, I was also fortunate to work with <a href="https://www.lerrelpinto.com/">Prof. Lerrel Pinto</a> and <a href="https://people.eecs.berkeley.edu/~pabbeel/">Prof. Pieter Abbeel</a>.
+I am a final-year Ph.D. student at Intent Lab in CMU Robotics Institute, advised by <a href="https://www.cs.cmu.edu/~abajcsy/">Prof. Andrea Bajcsy</a>. I received my Master from Stanford CS, supervised by <a href="https://dorsa.fyi/">Prof. Dorsa Sadigh</a>. In my undergrad, I was also fortunate to work with <a href="https://www.lerrelpinto.com/">Prof. Lerrel Pinto</a> and <a href="https://people.eecs.berkeley.edu/~pabbeel/">Prof. Pieter Abbeel</a>.
 
 For industry experiences, I have had great internships at Nvidia Seattle Robotics Lab and the Amazon Frontier AI &amp; Robotics Lab.
 
