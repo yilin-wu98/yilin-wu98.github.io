@@ -21,9 +21,11 @@ social: true # includes social icons at the bottom of the page
 
 I am a final-year Ph.D. student at Intent Lab in CMU Robotics Institute, advised by <a href="https://www.cs.cmu.edu/~abajcsy/">Prof. Andrea Bajcsy</a>. I received my Master from Stanford CS, supervised by <a href="https://dorsa.fyi/">Prof. Dorsa Sadigh</a>. In my undergrad, I was also fortunate to work with <a href="https://www.lerrelpinto.com/">Prof. Lerrel Pinto</a> and <a href="https://people.eecs.berkeley.edu/~pabbeel/">Prof. Pieter Abbeel</a>.
 
+<strong>I am on the industry job market this year.</strong> Feel free to contact me if you feel there might be a good fit.
+
 For industry experiences, I have had great internships at Nvidia Seattle Robotics Lab and the Amazon Frontier AI &amp; Robotics Lab.
 
-My research interest lies in building better foundation models for robotics (fast, multi-modal world models) and leveraging those foundation models for inference-time adaptation (policy steering, etc.). I am also broadly interested in enhancing robots' capabilities for more complex, long-horizon contact-rich manipulation with imitation learning, reinforcement learning, and multi-modal sensing.
+My research interest lies in helping generalist robot policies adapt to users and environments while preserving their broad capabilities and their ability for continual learning. I have been addressing this problem from several perspectives: using world models and VLMs for inference-time steering; using tactile information and learning to condition on memory to address partial observability; and uncertainty-driven, parameter-efficient policy finetuning to minimize the cost of human interaction during deployment.
 
 <button class="btn btn-sm btn-outline-primary bio-toggle" type="button" data-text-collapsed="Show more about my background" data-text-expanded="Show less">Show more about my background</button>
 
