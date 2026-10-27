@@ -1,6 +1,13 @@
-# Invited talks and workshop presentations.
+# Invited talks, workshop presentations, and thesis milestone talks.
 # Rendered on the homepage via _includes/talks.liquid, sorted by date (most recent first).
 # Each entry: date (YYYY-MM-DD), venue, title, and optional link/link_text.
+
+- date: 2026-10-26
+  venue: CMU Robotics Institute
+  title: "Reconciling Adaptation and Generality in Robot Policies"
+  note: PhD thesis proposal
+  link: https://youtu.be/4cMpTTy7Qhk
+  link_text: recording
 
 - date: 2026-07-20
   venue: CMU RCHI Lab
