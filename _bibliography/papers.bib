@@ -13,6 +13,7 @@
   bibtex_show = {true},
   preview = {wu_2026_imprint.gif},
   website= {https://yilin-wu98.github.io/imprint_website/},
+  code = {https://github.com/amazon-far/imprint},
   abstract = {It is widely appreciated that robotic policies require long-term memory to perform complex tasks. However, directly conditioning policies on all past observations leaves policy learning susceptible to learning spurious shortcuts, and introduces large latency at policy deployment. As such, today’s memory-augmented policies curate what to remember, either by retaining only recent frames, selected keyframes, or textual summaries, or by learning latent representations of the visual stream alone. In this work, we propose an alternative approach IMPRINT, a policy-agnostic latent memory framework that augments vision-language-action (VLA) models with multi-stream memory without explicitly constraining what the policy should remember. IMPRINT compresses different streams into a latent memory that is updated incrementally at inference, enabling low latency. To avoid shortcut learning, IMPRINT adopts a two-stage training procedure, first supervising memory to reconstruct multiple streams (observations, actions, proprioception) of past information, as well as estimate current task progress, followed by end-to-end finetuning, jointly with the policy, on action prediction. Across both simulation and real-world tasks demanding memory, IMPRINT improves average success over the base VLA by at least 26%, outperforming popular alternatives, and maintaininglowest inference latency among memory-augmented VLAs. Through careful ablations, we demonstrate the utility of incorporating diverse information streams into robotic memory, validating the advantages of foregoing history curation. Project website: https://yilin-wu98.github.io/imprint_website/.},
 }
 
@@ -40,6 +41,7 @@
   bibtex_show = {true},
   preview = {wu_2026_weaver.gif},
   website= {https://arnavkj1995.github.io/WEAVER/},
+  code = {https://github.com/arnavkj1995/WEAVER},
   abstract = {The potential impacts of world models (WMs, i.e., learned simulators) on robotics are far-reaching -- policy evaluation, policy improvement, and test-time planning -- all with limited real-world interaction. To unlock these downstream capabilities, a WM needs to jointly satisfy three desiderata: (i) fidelity (i.e., producing simulated trajectories that correlate with reality), (ii) consistency (i.e., producing simulated trajectories that are coherent over long horizons), and (iii) efficiency (i.e., producing simulated trajectories quickly). We propose 𝚆𝙴𝙰𝚅𝙴𝚁 (World Estimation Across Views for Embodied Reasoning): a WM architecture that simultaneously achieves all three desiderata, providing state-of-the-art results on robotic manipulation tasks. 𝚆𝙴𝙰𝚅𝙴𝚁 is a multi-view WM trained to predict future latents and reward values via a flow-matching loss. We distill the key design decisions across model architecture, memory, and prediction objectives required to unlock the kinds of long-horizon dynamic manipulation tasks that have confounded prior world modeling approaches. We apply 𝚆𝙴𝙰𝚅𝙴𝚁 in robotic hardware, demonstrating its effectiveness at policy evaluation (ρ=0.870 correlation with real-world success rate), policy improvement (real-world success rate improvement of 38% on top of the π0.5 robot foundation model), and test-time planning (real-world success rate improvement of 14% with a 5−10× speedup over prior WMs). 𝚆𝙴𝙰𝚅𝙴𝚁 also demonstrates better performance than prior WMs when evaluated on out-of-distribution scenarios. Code, models, and videos at: https://arnavkj1995.github.io/WEAVER/},
 }
 
@@ -64,6 +66,7 @@ title={When to Act, Ask, or Learn: Uncertainty-Aware Policy Steering},
 	selected={true},
     bibtex_show = {true},
 	website={https://jessie-yuan.github.io/ups/},
+	code={https://github.com/CMU-IntentLab/uncertainty_aware_policy_steering},
 	preview={ups.gif},
     year={2026},
     arxiv={2602.22474},
